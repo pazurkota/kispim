@@ -8,11 +8,15 @@
     Title="kispim">
     
     <TabBar>
-        <Tab Title="Main Page">
+        <Tab 
+            Title="Main Page"
+            Icon="home_page_icon.svg">
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}" />
         </Tab>
         
-        <Tab Title="Transactions">
+        <Tab 
+            Title="Transactions"
+            Icon="transactions_list_icon.svg">
             <ShellContent ContentTemplate="{DataTemplate pages:TransactionsListPage}" />
         </Tab>
     </TabBar>
