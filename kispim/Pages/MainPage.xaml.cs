@@ -1,4 +1,4 @@
-﻿namespace kispim;
+﻿namespace kispim.Pages;
 
 public partial class MainPage : ContentPage
 {
