@@ -20,6 +20,7 @@ public class Transaction
     
     [Column("date")]
     public DateTime Date { get; set; }
-    
-    // public Tag[] Tags { get; set; }
+
+    [Column("tags")]
+    public Tag[] Tags { get; set; } = null!;
 }
