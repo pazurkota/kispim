@@ -16,6 +16,7 @@ public class Transaction
     [Column("amount")]
     public decimal Amount { get; set; }
     
+    // [Column("currency")]
     // public CurrencyType Currency { get; set; }
     
     [Column("date")]
