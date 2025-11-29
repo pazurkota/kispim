@@ -1,4 +1,7 @@
-﻿namespace kispim;
+﻿using kispim.Pages;
+using Microsoft.Maui.Controls;
+
+namespace kispim;
 
 public partial class App : Application
 {

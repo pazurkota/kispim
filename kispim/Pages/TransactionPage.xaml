@@ -9,6 +9,7 @@
     </ContentPage.BindingContext>
     
     <ContentPage.Content>
-        
+        <Label 
+            Text="Welcome! This is the secret page!"/>
     </ContentPage.Content>
 </ContentPage>
